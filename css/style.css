@@ -1,0 +1,161 @@
+header {
+  background: #525cb5;
+  width: 100%;
+}
+header .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container-fluid .title-site {
+  margin-left: 20px;
+}
+header .container-fluid .title-site .nav-brand {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header .container-fluid .title-site .nav-brand:hover {
+  padding: 10px;
+  background: aqua;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+header .nav .nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+header .nav .nav-list .nav-item {
+  margin-right: 5px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+header .nav .nav-list .nav-item:hover {
+  background: #83acce;
+  padding: 5px 0px 5px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+header .nav .nav-list .nav-item .nav-link {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+header .nav .nav-list .nav-item .nav-link:hover {
+  font-weight: 700;
+  color: chocolate;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .letf-menu {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+main .letf-menu .row_one {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #83acce;
+  margin-bottom: 10px;
+}
+main .letf-menu .row_one .form {
+  width: 100%;
+}
+main .letf-menu .row_one .form p {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+main .letf-menu .row_one .form p label {
+  padding-top: 10px;
+  display: block;
+  padding-left: 25px;
+}
+main .letf-menu .row_one .form p input {
+  width: 90%;
+  margin: 0% 3%;
+  height: 25px;
+  border: 2px solid #83acce;
+}
+main .letf-menu .row_one .title-search {
+  margin-bottom: 0px;
+}
+main .letf-menu .row_two p {
+  border: 1px solid #83acce;
+  margin: 0px;
+}
+main .letf-menu .row_two p.title {
+  background: #525cb5;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 10px;
+}
+main .letf-menu .row_two p.sous-titre {
+  border-bottom: none;
+  padding-left: 10%;
+  padding: 20px;
+}
+main .letf-menu .row_two p.sous-titre:last-child {
+  border: 1px solid #83acce;
+}
+main .right-content {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #83acce;
+  box-shadow: 2px 1px 5px black;
+}
+main .right-content .row_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px 15px 10px;
+}
+main .right-content .row_one .image {
+  margin-right: 5%;
+}
+main .right-content .row_one .image img {
+  width: 100%;
+}
+main .right-content .row_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 15px 10px 15px 10px;
+}
+main .right-content .row_two .image1 {
+  margin-left: 5%;
+}
+main .right-content .row_two .image1 img {
+  width: 100%;
+  float: right;
+}
+
+footer {
+  background: #525cb5;
+  width: 100%;
+  margin-top: 20px;
+}
+footer .container-fluid {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+footer .container-fluid p {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
